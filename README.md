@@ -8,8 +8,10 @@ This project contains the database schema to store a swiss tournament game match
 
 How to Run it?
 --------
-
-Import the tournament.sql file into the database(Postgres). Then run the tournament.py file. 
+1.) This project uses the Postgres RDBMS. You will need to create a database named 'Tournament'.<br>
+2.) You will need to connect to the database created above.<br>
+3.) Import the tournament.sql file into the database(Postgres). Using the command '\i tournament.sql'.<br>
+4.) Then run the tournament_test.py file.
 
 
 tournament.py
